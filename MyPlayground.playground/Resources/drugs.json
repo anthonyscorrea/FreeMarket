@@ -1,0 +1,127 @@
+[
+  {
+    "becameCheapText": [],
+    "becomesExpensive": true,
+    "becameExpensiveText": [
+      "The market is flooded with cheap home-made acid!"
+    ],
+    "becomesCheap": false,
+    "maxPrice": 4400,
+    "name": "Acid",
+    "minPrice": 1000
+  },
+  {
+    "becameCheapText": [
+      ""
+    ],
+    "becomesExpensive": false,
+    "becameExpensiveText": [],
+    "becomesCheap": true,
+    "maxPrice": 29000,
+    "name": "Cocaine",
+    "minPrice": 15000
+  },
+  {
+    "becameCheapText": [],
+    "becomesExpensive": true,
+    "becameExpensiveText": [
+      "The Marrakesh Express has arrived!"
+    ],
+    "becomesCheap": false,
+    "maxPrice": 1280,
+    "name": "Hashish",
+    "minPrice": 480
+  },
+  {
+    "becameCheapText": [
+      ""
+    ],
+    "becomesExpensive": false,
+    "becameExpensiveText": [],
+    "becomesCheap": true,
+    "maxPrice": 13000,
+    "name": "Heroin",
+    "minPrice": 5500
+  },
+  {
+    "becameCheapText": [],
+    "becomesExpensive": true,
+    "becameExpensiveText": [
+      "Rival FreeMarketItem dealers raided a pharmacy and are selling cheap ludes!"
+    ],
+    "becomesCheap": false,
+    "maxPrice": 60,
+    "name": "Ludes",
+    "minPrice": 11
+  },
+  {
+    "becameCheapText": [],
+    "becomesExpensive": false,
+    "becameExpensiveText": [],
+    "becomesCheap": false,
+    "maxPrice": 4400,
+    "name": "MDA",
+    "minPrice": 1500
+  },
+  {
+    "becameCheapText": [
+      ""
+    ],
+    "becomesExpensive": false,
+    "becameExpensiveText": [],
+    "becomesCheap": true,
+    "maxPrice": 1250,
+    "name": "Opium",
+    "minPrice": 540
+  },
+  {
+    "becameCheapText": [],
+    "becomesExpensive": false,
+    "becameExpensiveText": [],
+    "becomesCheap": false,
+    "maxPrice": 2500,
+    "name": "PCP",
+    "minPrice": 1000
+  },
+  {
+    "becameCheapText": [],
+    "becomesExpensive": false,
+    "becameExpensiveText": [],
+    "becomesCheap": false,
+    "maxPrice": 700,
+    "name": "Peyote",
+    "minPrice": 220
+  },
+  {
+    "becameCheapText": [],
+    "becomesExpensive": false,
+    "becameExpensiveText": [],
+    "becomesCheap": false,
+    "maxPrice": 1300,
+    "name": "Shrooms",
+    "minPrice": 630
+  },
+  {
+    "becameCheapText": [
+      ""
+    ],
+    "becomesExpensive": false,
+    "becameExpensiveText": [],
+    "becomesCheap": true,
+    "maxPrice": 250,
+    "name": "Speed",
+    "minPrice": 90
+  },
+  {
+    "becameCheapText": [],
+    "becomesExpensive": true,
+    "becameExpensiveText": [
+      "Columbian freighter dusted the Coast Guard!",
+      "Weed prices have bottomed out!"
+    ],
+    "becomesCheap": false,
+    "maxPrice": 890,
+    "name": "Weed",
+    "minPrice": 315
+  }
+]

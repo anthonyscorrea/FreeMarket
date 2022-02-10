@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A1CF0472545C47600AF4FE2 /* TravelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CF0462545C47600AF4FE2 /* TravelCell.swift */; };
+		4A1CF04B2545CF7700AF4FE2 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CF04A2545CF7700AF4FE2 /* Place.swift */; };
+		4A1CF04E2545CF9000AF4FE2 /* demoPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1CF04D2545CF9000AF4FE2 /* demoPlaces.swift */; };
+		4A253B0C25538F8000DFE3D4 /* demoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A253B0B25538F8000DFE3D4 /* demoPlayer.swift */; };
+		4A253B112553905800DFE3D4 /* demoMarketPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A253B102553905800DFE3D4 /* demoMarketPlace.swift */; };
+		4A54C4AD255DFAC30098D1BD /* NewsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A54C4AC255DFAC30098D1BD /* NewsViewCell.swift */; };
+		4A64D7F72554494E00E8AE0F /* currencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A64D7F62554494E00E8AE0F /* currencyFormatter.swift */; };
+		4A771BFF254DB655003F1BE6 /* PriceBadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A771BFE254DB655003F1BE6 /* PriceBadgeButton.swift */; };
+		4A771C04254DB6BD003F1BE6 /* InventoryBadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A771C03254DB6BD003F1BE6 /* InventoryBadgeButton.swift */; };
+		4A81D8962554C5C100D6A309 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A81D8952554C5C100D6A309 /* Queue.swift */; };
+		4A81D8B9255621F100D6A309 /* demoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAAF50D253282B400D9F4A3 /* demoItems.swift */; };
+		4A81D8BB255621F100D6A309 /* demoMarketPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A253B102553905800DFE3D4 /* demoMarketPlace.swift */; };
+		4A81D8BF255621F700D6A309 /* FreeMarketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAAF5062532810400D9F4A3 /* FreeMarketItem.swift */; };
+		4A81D8C0255621F700D6A309 /* MarketPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCC2F5253E6EA100E28C21 /* MarketPlace.swift */; };
+		4A911C68254D9CF90042A490 /* TransactionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A911C67254D9CF90042A490 /* TransactionType.swift */; };
+		4A9380C62554C10E00AFBB9A /* NewsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9380C52554C10E00AFBB9A /* NewsManager.swift */; };
+		4A9916D025437D4F00395B95 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9916CF25437D4F00395B95 /* Player.swift */; };
+		4A9916D8254381B800395B95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9916D7254381B800395B95 /* ContentView.swift */; };
+		4A9916DB254382B700395B95 /* MarketCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9916DA254382B700395B95 /* MarketCellView.swift */; };
+		4A9916DE25438EE400395B95 /* PlayerStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9916DD25438EE400395B95 /* PlayerStatsView.swift */; };
+		4A9F981C2539F2270069DAEC /* drugs.json in Resources */ = {isa = PBXBuildFile; fileRef = 4A9F981B2539F2270069DAEC /* drugs.json */; };
+		4AA748562547C239006D6C9B /* FreeMarketFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA7484D2547C239006D6C9B /* FreeMarketFramework.framework */; };
+		4AA7485B2547C239006D6C9B /* DopeWarsFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA7485A2547C239006D6C9B /* DopeWarsFrameworkTests.swift */; };
+		4AA7485D2547C239006D6C9B /* DopeWarsFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AA7484F2547C239006D6C9B /* DopeWarsFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AAAF4F6253280D400D9F4A3 /* FreeMarketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAAF4F5253280D400D9F4A3 /* FreeMarketApp.swift */; };
+		4AAAF4FA253280D800D9F4A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AAAF4F9253280D800D9F4A3 /* Assets.xcassets */; };
+		4AAAF4FD253280D800D9F4A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AAAF4FC253280D800D9F4A3 /* Preview Assets.xcassets */; };
+		4AAAF5072532810400D9F4A3 /* FreeMarketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAAF5062532810400D9F4A3 /* FreeMarketItem.swift */; };
+		4AAAF50E253282B400D9F4A3 /* demoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAAF50D253282B400D9F4A3 /* demoItems.swift */; };
+		4AD5EBAA254A1C07003234C7 /* TransactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD5EBA9254A1C07003234C7 /* TransactView.swift */; };
+		4ADCC2F6253E6EA100E28C21 /* MarketPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADCC2F5253E6EA100E28C21 /* MarketPlace.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AA748572547C239006D6C9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AAAF4EA253280D400D9F4A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AA7484C2547C239006D6C9B;
+			remoteInfo = DopeWarsFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A1CF0462545C47600AF4FE2 /* TravelCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelCell.swift; sourceTree = "<group>"; };
+		4A1CF04A2545CF7700AF4FE2 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		4A1CF04D2545CF9000AF4FE2 /* demoPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoPlaces.swift; sourceTree = "<group>"; };
+		4A253B0B25538F8000DFE3D4 /* demoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoPlayer.swift; sourceTree = "<group>"; };
+		4A253B102553905800DFE3D4 /* demoMarketPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoMarketPlace.swift; sourceTree = "<group>"; };
+		4A54C4AC255DFAC30098D1BD /* NewsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewCell.swift; sourceTree = "<group>"; };
+		4A64D7F62554494E00E8AE0F /* currencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = currencyFormatter.swift; sourceTree = "<group>"; };
+		4A771BFE254DB655003F1BE6 /* PriceBadgeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceBadgeButton.swift; sourceTree = "<group>"; };
+		4A771C03254DB6BD003F1BE6 /* InventoryBadgeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryBadgeButton.swift; sourceTree = "<group>"; };
+		4A81D8952554C5C100D6A309 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		4A911C67254D9CF90042A490 /* TransactionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionType.swift; sourceTree = "<group>"; };
+		4A9380C52554C10E00AFBB9A /* NewsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsManager.swift; sourceTree = "<group>"; };
+		4A9916CF25437D4F00395B95 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		4A9916D7254381B800395B95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4A9916DA254382B700395B95 /* MarketCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketCellView.swift; sourceTree = "<group>"; };
+		4A9916DD25438EE400395B95 /* PlayerStatsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerStatsView.swift; sourceTree = "<group>"; };
+		4A9F981B2539F2270069DAEC /* drugs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = drugs.json; sourceTree = "<group>"; };
+		4AA748452547C1F5006D6C9B /* DopeWars.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DopeWars.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		4AA7484D2547C239006D6C9B /* FreeMarketFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FreeMarketFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA7484F2547C239006D6C9B /* DopeWarsFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DopeWarsFramework.h; sourceTree = "<group>"; };
+		4AA748502547C239006D6C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AA748552547C239006D6C9B /* FreeMarketFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeMarketFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AA7485A2547C239006D6C9B /* DopeWarsFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DopeWarsFrameworkTests.swift; sourceTree = "<group>"; };
+		4AA7485C2547C239006D6C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AAAF4F2253280D400D9F4A3 /* FreeMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AAAF4F5253280D400D9F4A3 /* FreeMarketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeMarketApp.swift; sourceTree = "<group>"; };
+		4AAAF4F9253280D800D9F4A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AAAF4FC253280D800D9F4A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4AAAF4FE253280D800D9F4A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AAAF5062532810400D9F4A3 /* FreeMarketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeMarketItem.swift; sourceTree = "<group>"; };
+		4AAAF50D253282B400D9F4A3 /* demoItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoItems.swift; sourceTree = "<group>"; };
+		4AD5EBA9254A1C07003234C7 /* TransactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactView.swift; sourceTree = "<group>"; };
+		4ADCC2F5253E6EA100E28C21 /* MarketPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPlace.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AA7484A2547C239006D6C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA748522547C239006D6C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA748562547C239006D6C9B /* FreeMarketFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AAAF4EF253280D400D9F4A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AA7484E2547C239006D6C9B /* DopeWarsFramework */ = {
+			isa = PBXGroup;
+			children = (
+				4AA7484F2547C239006D6C9B /* DopeWarsFramework.h */,
+				4AA748502547C239006D6C9B /* Info.plist */,
+			);
+			path = DopeWarsFramework;
+			sourceTree = "<group>";
+		};
+		4AA748592547C239006D6C9B /* DopeWarsFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AA7485A2547C239006D6C9B /* DopeWarsFrameworkTests.swift */,
+				4AA7485C2547C239006D6C9B /* Info.plist */,
+			);
+			path = DopeWarsFrameworkTests;
+			sourceTree = "<group>";
+		};
+		4AAAF4E9253280D400D9F4A3 = {
+			isa = PBXGroup;
+			children = (
+				4AA748452547C1F5006D6C9B /* DopeWars.playground */,
+				4AAAF4F4253280D400D9F4A3 /* FreeMarket */,
+				4AA7484E2547C239006D6C9B /* DopeWarsFramework */,
+				4AA748592547C239006D6C9B /* DopeWarsFrameworkTests */,
+				4AAAF4F3253280D400D9F4A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AAAF4F3253280D400D9F4A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AAAF4F2253280D400D9F4A3 /* FreeMarket.app */,
+				4AA7484D2547C239006D6C9B /* FreeMarketFramework.framework */,
+				4AA748552547C239006D6C9B /* FreeMarketFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AAAF4F4253280D400D9F4A3 /* FreeMarket */ = {
+			isa = PBXGroup;
+			children = (
+				4AAAF4F5253280D400D9F4A3 /* FreeMarketApp.swift */,
+				4AAAF505253280E700D9F4A3 /* Models */,
+				4ADCC2ED253E365A00E28C21 /* Views */,
+				4AAAF4F9253280D800D9F4A3 /* Assets.xcassets */,
+				4AAAF4FE253280D800D9F4A3 /* Info.plist */,
+				4AAAF4FB253280D800D9F4A3 /* Preview Content */,
+				4A9F981B2539F2270069DAEC /* drugs.json */,
+			);
+			path = FreeMarket;
+			sourceTree = "<group>";
+		};
+		4AAAF4FB253280D800D9F4A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4AAAF4FC253280D800D9F4A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4AAAF505253280E700D9F4A3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4A1CF04D2545CF9000AF4FE2 /* demoPlaces.swift */,
+				4AAAF50D253282B400D9F4A3 /* demoItems.swift */,
+				4A253B102553905800DFE3D4 /* demoMarketPlace.swift */,
+				4A253B0B25538F8000DFE3D4 /* demoPlayer.swift */,
+				4A1CF04A2545CF7700AF4FE2 /* Place.swift */,
+				4A9916CF25437D4F00395B95 /* Player.swift */,
+				4AAAF5062532810400D9F4A3 /* FreeMarketItem.swift */,
+				4ADCC2F5253E6EA100E28C21 /* MarketPlace.swift */,
+				4A81D8952554C5C100D6A309 /* Queue.swift */,
+				4A911C67254D9CF90042A490 /* TransactionType.swift */,
+				4A64D7F62554494E00E8AE0F /* currencyFormatter.swift */,
+				4A9380C52554C10E00AFBB9A /* NewsManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4ADCC2ED253E365A00E28C21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A9916DD25438EE400395B95 /* PlayerStatsView.swift */,
+				4A9916D7254381B800395B95 /* ContentView.swift */,
+				4AD5EBA9254A1C07003234C7 /* TransactView.swift */,
+				4A9916DA254382B700395B95 /* MarketCellView.swift */,
+				4A54C4AC255DFAC30098D1BD /* NewsViewCell.swift */,
+				4A771C03254DB6BD003F1BE6 /* InventoryBadgeButton.swift */,
+				4A771BFE254DB655003F1BE6 /* PriceBadgeButton.swift */,
+				4A1CF0462545C47600AF4FE2 /* TravelCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4AA748482547C239006D6C9B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA7485D2547C239006D6C9B /* DopeWarsFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4AA7484C2547C239006D6C9B /* FreeMarketFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA7485E2547C239006D6C9B /* Build configuration list for PBXNativeTarget "FreeMarketFramework" */;
+			buildPhases = (
+				4AA748482547C239006D6C9B /* Headers */,
+				4AA748492547C239006D6C9B /* Sources */,
+				4AA7484A2547C239006D6C9B /* Frameworks */,
+				4AA7484B2547C239006D6C9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreeMarketFramework;
+			productName = DopeWarsFramework;
+			productReference = 4AA7484D2547C239006D6C9B /* FreeMarketFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4AA748542547C239006D6C9B /* FreeMarketFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AA748612547C239006D6C9B /* Build configuration list for PBXNativeTarget "FreeMarketFrameworkTests" */;
+			buildPhases = (
+				4AA748512547C239006D6C9B /* Sources */,
+				4AA748522547C239006D6C9B /* Frameworks */,
+				4AA748532547C239006D6C9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AA748582547C239006D6C9B /* PBXTargetDependency */,
+			);
+			name = FreeMarketFrameworkTests;
+			productName = DopeWarsFrameworkTests;
+			productReference = 4AA748552547C239006D6C9B /* FreeMarketFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AAAF4F1253280D400D9F4A3 /* FreeMarket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AAAF501253280D800D9F4A3 /* Build configuration list for PBXNativeTarget "FreeMarket" */;
+			buildPhases = (
+				4AAAF4EE253280D400D9F4A3 /* Sources */,
+				4AAAF4EF253280D400D9F4A3 /* Frameworks */,
+				4AAAF4F0253280D400D9F4A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FreeMarket;
+			productName = DopeWars;
+			productReference = 4AAAF4F2253280D400D9F4A3 /* FreeMarket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AAAF4EA253280D400D9F4A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4AA7484C2547C239006D6C9B = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					4AA748542547C239006D6C9B = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					4AAAF4F1253280D400D9F4A3 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 4AAAF4ED253280D400D9F4A3 /* Build configuration list for PBXProject "FreeMarket" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AAAF4E9253280D400D9F4A3;
+			productRefGroup = 4AAAF4F3253280D400D9F4A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AAAF4F1253280D400D9F4A3 /* FreeMarket */,
+				4AA7484C2547C239006D6C9B /* FreeMarketFramework */,
+				4AA748542547C239006D6C9B /* FreeMarketFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AA7484B2547C239006D6C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA748532547C239006D6C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AAAF4F0253280D400D9F4A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9F981C2539F2270069DAEC /* drugs.json in Resources */,
+				4AAAF4FD253280D800D9F4A3 /* Preview Assets.xcassets in Resources */,
+				4AAAF4FA253280D800D9F4A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AA748492547C239006D6C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A81D8BF255621F700D6A309 /* FreeMarketItem.swift in Sources */,
+				4A81D8C0255621F700D6A309 /* MarketPlace.swift in Sources */,
+				4A81D8BB255621F100D6A309 /* demoMarketPlace.swift in Sources */,
+				4A81D8B9255621F100D6A309 /* demoItems.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AA748512547C239006D6C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA7485B2547C239006D6C9B /* DopeWarsFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AAAF4EE253280D400D9F4A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A253B112553905800DFE3D4 /* demoMarketPlace.swift in Sources */,
+				4AAAF50E253282B400D9F4A3 /* demoItems.swift in Sources */,
+				4A1CF0472545C47600AF4FE2 /* TravelCell.swift in Sources */,
+				4A81D8962554C5C100D6A309 /* Queue.swift in Sources */,
+				4A253B0C25538F8000DFE3D4 /* demoPlayer.swift in Sources */,
+				4A771C04254DB6BD003F1BE6 /* InventoryBadgeButton.swift in Sources */,
+				4A9916D025437D4F00395B95 /* Player.swift in Sources */,
+				4AD5EBAA254A1C07003234C7 /* TransactView.swift in Sources */,
+				4A64D7F72554494E00E8AE0F /* currencyFormatter.swift in Sources */,
+				4A1CF04B2545CF7700AF4FE2 /* Place.swift in Sources */,
+				4A9916D8254381B800395B95 /* ContentView.swift in Sources */,
+				4ADCC2F6253E6EA100E28C21 /* MarketPlace.swift in Sources */,
+				4A911C68254D9CF90042A490 /* TransactionType.swift in Sources */,
+				4A9916DB254382B700395B95 /* MarketCellView.swift in Sources */,
+				4A1CF04E2545CF9000AF4FE2 /* demoPlaces.swift in Sources */,
+				4AAAF5072532810400D9F4A3 /* FreeMarketItem.swift in Sources */,
+				4A771BFF254DB655003F1BE6 /* PriceBadgeButton.swift in Sources */,
+				4AAAF4F6253280D400D9F4A3 /* FreeMarketApp.swift in Sources */,
+				4A54C4AD255DFAC30098D1BD /* NewsViewCell.swift in Sources */,
+				4A9380C62554C10E00AFBB9A /* NewsManager.swift in Sources */,
+				4A9916DE25438EE400395B95 /* PlayerStatsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AA748582547C239006D6C9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AA7484C2547C239006D6C9B /* FreeMarketFramework */;
+			targetProxy = 4AA748572547C239006D6C9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4AA7485F2547C239006D6C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DopeWarsFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonyscorrea.DopeWarsFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AA748602547C239006D6C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = DopeWarsFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonyscorrea.DopeWarsFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4AA748622547C239006D6C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DopeWarsFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonyscorrea.DopeWarsFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AA748632547C239006D6C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DopeWarsFrameworkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonyscorrea.DopeWarsFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4AAAF4FF253280D800D9F4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AAAF500253280D800D9F4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AAAF502253280D800D9F4A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FreeMarket/Preview Content\"";
+				DEVELOPMENT_TEAM = ZX53CJN69D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FreeMarket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonyscorrea.FreeMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AAAF503253280D800D9F4A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FreeMarket/Preview Content\"";
+				DEVELOPMENT_TEAM = ZX53CJN69D;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FreeMarket/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonyscorrea.FreeMarket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AA7485E2547C239006D6C9B /* Build configuration list for PBXNativeTarget "FreeMarketFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA7485F2547C239006D6C9B /* Debug */,
+				4AA748602547C239006D6C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AA748612547C239006D6C9B /* Build configuration list for PBXNativeTarget "FreeMarketFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA748622547C239006D6C9B /* Debug */,
+				4AA748632547C239006D6C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AAAF4ED253280D400D9F4A3 /* Build configuration list for PBXProject "FreeMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AAAF4FF253280D800D9F4A3 /* Debug */,
+				4AAAF500253280D800D9F4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AAAF501253280D800D9F4A3 /* Build configuration list for PBXNativeTarget "FreeMarket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AAAF502253280D800D9F4A3 /* Debug */,
+				4AAAF503253280D800D9F4A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AAAF4EA253280D400D9F4A3 /* Project object */;
+}
